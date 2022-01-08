@@ -1,6 +1,5 @@
 package com.example.note200.ui.list;
 
-import android.content.Context;
 import android.icu.text.SimpleDateFormat;
 import android.os.Build;
 import android.view.LayoutInflater;
@@ -25,15 +24,6 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteHolder> im
     private List<Note> searchNotes;
     private List<Note> notes = new ArrayList<>();
     public NoteClickListener listener;
-//    private Context context;
-
-//    public NoteAdapter(Context context,
-//                                 List<Note> list)
-//    {
-//        this.notes = list;
-//        this.searchNotes = list;
-//        this.context = context;
-//    }
 
 
     public void setNotes(List<Note> list) {

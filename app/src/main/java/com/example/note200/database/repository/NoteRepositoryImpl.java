@@ -15,8 +15,6 @@ public class NoteRepositoryImpl implements NoteRepository {
     private final NoteDao local;
     private final LiveData<List<Note>> allNotesLiveData;
 
-    private NoteDao currentId;
-
     public NoteRepositoryImpl(Application application) {
         AppDatabase db = AppDatabase.getDatabase(application);
         local = db.noteDao();
@@ -31,6 +29,11 @@ public class NoteRepositoryImpl implements NoteRepository {
     @Override
     public LiveData<List<Note>> getAllLiveData() {
         return allNotesLiveData;
+    }
+
+    @Override
+    public List<Note> getNoteByFavorite() {
+        return local.getNoteByFavorite();
     }
 
     @Override

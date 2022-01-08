@@ -25,7 +25,7 @@ public interface NoteDao {
     Note getById(long id);
 
     @Query("SELECT * FROM note ORDER BY `is_favorite` DESC")
-    List<Note> getFavorites();
+    List<Note> getNoteByFavorite();
 
     @Insert(onConflict = REPLACE)
     void insert(Note note);

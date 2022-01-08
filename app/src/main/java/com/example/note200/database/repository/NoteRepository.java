@@ -12,6 +12,8 @@ public interface NoteRepository {
 
     LiveData<List<Note>> getAllLiveData();
 
+    List<Note> getNoteByFavorite();
+
     Note getById(long id);
 
     void insert(Note note);

@@ -64,7 +64,7 @@ public class ListFragment extends Fragment {
 
         binding.addNoteButton.setOnClickListener(v -> openNote(EMPTY_ID));
 
-        viewModel.getData();
+        viewModel.getDataByDate();
 
         setHasOptionsMenu(true);
     }
@@ -77,7 +77,7 @@ public class ListFragment extends Fragment {
         transaction.commit();
 
         descriptionFragment.setListener(() -> {
-            viewModel.getData();
+            viewModel.getDataByDate();
         });
     }
 

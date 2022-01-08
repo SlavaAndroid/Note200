@@ -27,9 +27,14 @@ public class ListViewModel extends AndroidViewModel {
         repository = new NoteRepositoryImpl(application);
     }
 
-    public void getData() {
+    public void getDataByDate() {
         List<Note> list = repository.getAllNotes();
         allNotes.postValue(list);
     }
+
+//    public void getDataByFavorite() {
+//        List<Note> list = repository.getAllNotes();
+//        allNotes.postValue(list);
+//    }
 
 }
