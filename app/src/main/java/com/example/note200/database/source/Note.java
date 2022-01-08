@@ -15,7 +15,9 @@ public class Note {
     private String title;
     private String description;
     @ColumnInfo(name = "current_date")
-    private String currentDate;
+    private long currentDate;
+    @ColumnInfo(name = "is_favorite")
+    private boolean isFavorite;
 
     public long getId() {
         return id;
@@ -33,19 +35,27 @@ public class Note {
         this.title = name;
     }
 
-    public String getCurrentDate() {
-        return currentDate;
-    }
-
-    public void setCurrentDate(String currentDate) {
-        this.currentDate = currentDate;
-    }
-
     public String getDescription() {
         return description;
     }
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public long getCurrentDate() {
+        return currentDate;
+    }
+
+    public void setCurrentDate(long currentDate) {
+        this.currentDate = currentDate;
+    }
+
+    public boolean isFavorite() {
+        return isFavorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        isFavorite = favorite;
     }
 }

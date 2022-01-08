@@ -3,9 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/drawable/circle_background.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_baseline_add_24_white.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/layout/activity_main.xml" value="0.196875" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/layout/dialog_delete1.xml" value="0.33" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/layout/fragment_item.xml" value="0.25" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/layout/fragment_list.xml" value="0.25" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/layout/list_item_note.xml" value="0.196875" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/menu/description_fragment.xml" value="0.196875" />
+        <entry key="..\:/Users/Comp/AndroidStudioProjects/Note200/app/src/main/res/menu/list_fragment.xml" value="0.196875" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/drawable/circle_background.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_baseline_add_24_white.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
-        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/layout/fragment_item.xml" value="0.4" />
-        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/layout/fragment_list.xml" value="0.25" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/layout/dialog_delete1.xml" value="0.264" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/layout/fragment_item.xml" value="0.264" />
+        <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/layout/fragment_list.xml" value="0.6" />
         <entry key="..\:/Users/S.K/AndroidStudioProjects/Note200/app/src/main/res/layout/list_item_note.xml" value="0.3087330873308733" />
       </map>
     </option>

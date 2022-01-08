@@ -14,20 +14,18 @@ public class NoteRepositoryImpl implements NoteRepository {
 
     private final NoteDao local;
     private final LiveData<List<Note>> allNotesLiveData;
-    private final List<Note> allNotes;
 
     private NoteDao currentId;
 
     public NoteRepositoryImpl(Application application) {
         AppDatabase db = AppDatabase.getDatabase(application);
         local = db.noteDao();
-        allNotes = local.getAll();
         allNotesLiveData = local.getAllLiveData();
     }
 
     @Override
     public List<Note> getAllNotes() {
-        return allNotes;
+        return local.getAll();
     }
 
     @Override
@@ -47,12 +45,12 @@ public class NoteRepositoryImpl implements NoteRepository {
 
     @Override
     public void update(Note note) {
-        local.insert(note);
+        local.update(note);
     }
 
     @Override
     public void delete(Note note) {
-        local.insert(note);
+        local.delete(note);
     }
 
 }

@@ -16,14 +16,14 @@ import com.example.note200.database.source.Note;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListViewModel extends ViewModel {
+public class ListViewModel extends AndroidViewModel {
 
     private final NoteRepository repository;
 
     public final MutableLiveData<List<Note>> allNotes = new MutableLiveData<>(new ArrayList<>());
 
     public ListViewModel(Application application) {
-        super();
+        super(application);
         repository = new NoteRepositoryImpl(application);
     }
 
@@ -31,4 +31,5 @@ public class ListViewModel extends ViewModel {
         List<Note> list = repository.getAllNotes();
         allNotes.postValue(list);
     }
+
 }

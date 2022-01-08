@@ -15,14 +15,17 @@ import java.util.List;
 @Dao
 public interface NoteDao {
 
-    @Query("SELECT * FROM note")
+    @Query("SELECT * FROM note ORDER BY `current_date` DESC")
     List<Note> getAll();
 
-    @Query("SELECT * FROM note")
+    @Query("SELECT * FROM note ORDER BY `current_date` DESC")
     LiveData<List<Note>> getAllLiveData();
 
     @Query("SELECT * FROM note WHERE id = :id")
     Note getById(long id);
+
+    @Query("SELECT * FROM note ORDER BY `is_favorite` DESC")
+    List<Note> getFavorites();
 
     @Insert(onConflict = REPLACE)
     void insert(Note note);
@@ -32,9 +35,4 @@ public interface NoteDao {
 
     @Delete
     void delete(Note note);
-
-
-
-
-
 }
